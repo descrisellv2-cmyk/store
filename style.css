@@ -151,3 +151,57 @@
         display: block;
       }
     }
+
+/* SECTION DE 3 PRINCIPAIS HIGHLIGHTS */
+
+.highlights {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 colunas no desktop */
+  gap: 32px;
+  margin: 0 auto;
+}
+
+.highlight-item {
+  text-align: center;
+}
+
+.highlight-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.highlight-item h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.highlight-item p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Responsividade */
+
+/* Tablets (até 992px) - 2 colunas */
+@media (max-width: 992px) {
+  .highlights {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile (até 600px) - 1 coluna */
+@media (max-width: 600px) {
+  .highlights {
+    grid-template-columns: 1fr;
+  }
+  
+  .highlight-item h3 {
+    font-size: 1.3rem;
+  }
+
+  .highlight-item p {
+    font-size: 0.95rem;
+  }
+}
