@@ -205,3 +205,13 @@
     font-size: 0.95rem;
   }
 }
+
+/* REGRA DE PADDING GERAL SECTION */
+
+.pd-t-d { padding-top: var(--pt-d, 0); }
+.pd-b-d { padding-bottom: var(--pb-d, 0); }
+
+@media (max-width: 600px) {
+  .pd-t-m { padding-top: var(--pt-m, 0); }
+  .pd-b-m { padding-bottom: var(--pb-m, 0); }
+}
