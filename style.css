@@ -1,215 +1,154 @@
-/* SECTION DE IMAGEM OU VÍDEO MAIS TEXTO */
+/* DESKTOP PREVIA BUBBLE */
 
-.ds-section-01 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-  margin: 0 auto;
+h2 {
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  line-height: 120%;
+  font-weight: bold;
 }
 
-.ds-div-img {
-  width: 100%;
+p {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  line-height: 150%;
 }
 
-.image-wrapper {
-  position: relative;
-  width: 100%;
-  padding-top: 100%; /* mantém proporção 1:1 */
-  overflow: hidden;
-}
+/* DESKTOP */
 
-.image-wrapper img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-}
-
-.ds-div-text {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-left: 32px;
-  padding-right: 32px;
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
-
-.ds-div-text > div {
-  max-width: 500px;
-}
-
-@media (max-width: 768px) {
-  .ds-section-01 {
-    grid-template-columns: 1fr;
-  }
-
-.ds-div-text {
-  padding-left: 0px;
-  padding-right: 0px;
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
-
-  /* Padrão: imagem em cima */
-  .ds-section-01 .ds-div-img {
-    order: 1;
-  }
-
-  .ds-section-01 .ds-div-text {
-    order: 2;
-    text-align: center;
-  }
-
-  /* Invertido: texto em cima */
-  .ds-section-01.invert-mobile .ds-div-img {
-    order: 2;
-  }
-
-  .ds-section-01.invert-mobile .ds-div-text {
-    order: 1;
-  }
-}
-
-/* SECTION DE FAQ */
-
-.faq-section {
-  padding: 24px 0;
-}
-
-.faq-section h2 {
-  text-align: left;
-  margin-bottom: 1.5rem;
-}
-
-.faq p {
-  padding: 12px 0;
-  font-size: 14px;
-  color: inherit;
+.dsell-md-text-left {
   text-align: left;
 }
 
-.faq {
-	margin-bottom: 0;
+.dsell-md-text-right {
+  text-align: right;
 }
 
-.faq summary {
-	cursor: pointer;
-	list-style: none;
-	padding: 12px 0;
-	font-size: 14px;
-	font-weight: bold;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	color: inherit;
-	border-bottom: 1px solid rgba(0, 0, 0, .4);
-	text-align: left;
-	background: none;
-	gap: 12px;
-}
-
-.faq summary::after {
-	content: "+";
-	font-size: 16px;
-	transition: transform .3s ease;
-}
-
-.faq[open] summary::after {
-	content: "−";
-}
-
-.faq div {
-	padding: 20px 0;
-	font-size: 14px;
-	color: inherit;
-	text-align: left;
-}
-
-/* SECTION DE IMG FULL */
-
-.img-full-container.com-padding {
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
-
-.img-full-desktop {
-      display: block;
-    }
-.img-full-mobile {
-      display: none;
-    }
-
-@media (max-width: 768px) {
-.img-full-desktop {
-        display: none;
-      }
-.img-full-mobile {
-        display: block;
-      }
-    }
-
-/* SECTION DE 3 PRINCIPAIS HIGHLIGHTS */
-
-.highlights {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 colunas no desktop */
-  gap: 32px;
-  margin: 0 auto;
-}
-
-.highlight-item {
+.dsell-md-text-center {
   text-align: center;
 }
 
-.highlight-item img {
+.dsell-md-text-center {
+  text-align: center;
+}
+
+.dsell-md-aspect-1 {
+  aspect-ratio: 16 / 9;
+}
+
+.dsell-md-aspect-2 {
+  aspect-ratio: 1 / 1;
+}
+
+.dsell-md-grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* duas colunas iguais */
+  align-items: center;
+}
+
+.dsell-md-grid-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* duas colunas iguais */
+  align-items: center;
+}
+
+.dsell-md-order-1 {
+  order: 1;
+}
+
+.dsell-md-object-cover {
+  object-fit: cover;
+}
+
+.dsell-md-w-full {
   width: 100%;
-  height: auto;
-  margin-bottom: 15px;
 }
 
-.highlight-item h3 {
-  margin-bottom: 12px;
+.dsell-md-pl-24 {
+  padding-left: 24px;
 }
 
-.highlight-item p {
-  font-size: 1rem;
-  color: #555;
+.dsell-md-pt-24 {
+  padding-top: 24px;
 }
 
-/* Responsividade */
-
-/* Tablets (até 992px) - 2 colunas */
-@media (max-width: 992px) {
-  .highlights {
-    grid-template-columns: repeat(2, 1fr);
-  }
+.dsell-md-pb-24 {
+  padding-bottom: 24px;
 }
 
-/* Mobile (até 600px) - 1 coluna */
-@media (max-width: 600px) {
-  .highlights {
-    grid-template-columns: 1fr;
-  }
-  
-  .highlight-item h3 {
-    font-size: 1.3rem;
-  }
-
-  .highlight-item p {
-    font-size: 0.95rem;
-  }
+.dsell-md-top-8 {
+  top: 8px;
 }
 
-/* REGRA DE PADDING GERAL SECTION */
-
-.pd-t-d { padding-top: var(--pt-d, 0); }
-.pd-b-d { padding-bottom: var(--pb-d, 0); }
-
-@media (max-width: 600px) {
-  .pd-t-m { padding-top: var(--pt-m, 0); }
-  .pd-b-m { padding-bottom: var(--pb-m, 0); }
+.dsell-md-left-8 {
+  top: 8px;
 }
+
+.dsell-md-gap-32 {
+  gap: 32px;
+}
+
+
+/* MOBILE PREVIA BUBBLE */
+
+h2 {
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  line-height: 120%;
+  font-weight: bold;
+}
+
+p {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+/* MOBILE */
+
+.dsell-text-right {
+  text-align: right;
+}
+
+.dsell-text-left {
+  text-align: left;
+}
+
+.dsell-text-center {
+  text-align: center;
+}
+
+.dsell-aspect-1 {
+  aspect-ratio: 16 / 9;
+}
+
+.dsell-aspect-2 {
+  aspect-ratio: 1 / 1;
+}
+
+.dsell-grid-1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+}
+
+.dsell-order-1 {
+  order: 1;
+}
+
+.dsell-w-full {
+  width: 100%;
+}
+
+.dsell-pt-24 {
+  padding-top: 24px;
+}
+
+.dsell-pt-24 {
+  padding-top: 24px;
+}
+
+.dsell-pb-24 {
+  padding-bottom: 24px;
+}
+
+/* CMP CUSTOM 01 */
