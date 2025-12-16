@@ -211,6 +211,11 @@ p {
   gap: 12px;
 }
 
+.dsell-custom01-img-small {
+  width: 48px;
+  height: 48px;
+}
+
 @media (max-width: 1024px) {
   .dsell-custom01-block {
     grid-template-columns: repeat(2, 1fr);
