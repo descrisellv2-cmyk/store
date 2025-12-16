@@ -223,6 +223,13 @@ p {
 
 /* CMP 01 */
 
+.dsell-cmp01-block {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  text-align: left;
+}
+
 .faq-item {
   border: 1px solid #e5e7eb;
   border-radius: 8px;
