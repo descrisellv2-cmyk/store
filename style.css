@@ -152,3 +152,58 @@ p {
 }
 
 /* CMP CUSTOM 01 */
+
+.dsell-custom01-block {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* tres colunas iguais */
+  align-items: center;
+  gap: 32px;
+}
+
+.dsell-custom01-card {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.dsell-custom01-grid-imgs {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* duas colunas iguais */
+  align-items: center;
+  gap: 3px;
+}
+
+.dsell-custom01-grid-item-left {
+  position: relative;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  overflow: hidden;
+}
+
+.dsell-custom01-grid-item-right {
+  position: relative;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+
+.dsell-custom01-item-img {
+  object-fit: cover;
+  height: 176px;
+  width: 100%;
+}
+
+.dsell-custom01-item-tag {
+  position: absolute;
+  border-radius: 9999px;
+  padding: 8px;
+  top: 8px;
+  left: 8px;
+  background-color: #fff;
+}
+
+.dsell-custom01-info-tratamento {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
