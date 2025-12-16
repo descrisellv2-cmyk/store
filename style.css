@@ -208,3 +208,15 @@ p {
   align-items: center;
   gap: 12px;
 }
+
+@media (max-width: 1024px) {
+  .dsell-custom01-block {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .dsell-custom01-block {
+    grid-template-columns: 1fr;
+  }
+}
