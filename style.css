@@ -179,6 +179,7 @@ p {
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
   overflow: hidden;
+  display: flex;
 }
 
 .dsell-custom01-grid-item-right {
@@ -186,6 +187,7 @@ p {
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
   overflow: hidden;
+  display: flex;
 }
 
 .dsell-custom01-item-img {
