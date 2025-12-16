@@ -164,6 +164,7 @@ p {
   display: flex;
   flex-direction: column;
   gap: 32px;
+  text-align: left;
 }
 
 .dsell-custom01-grid-imgs {
