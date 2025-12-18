@@ -156,7 +156,7 @@ p {
 .dsell-custom01-block {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr; /* tres colunas iguais */
-  align-items: center;
+  align-items: start;
   gap: 32px;
 }
 
@@ -190,9 +190,10 @@ p {
   display: flex;
 }
 
-.dsell-custom01-item-img {
+/* Classe para NuvemShop */
+.user-content img.dsell-custom01-item-img {
   object-fit: cover;
-  height: 176px;
+  height: 200px;
   width: 100%;
 }
 
