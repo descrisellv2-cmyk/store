@@ -193,7 +193,7 @@ p {
 /* Classe para NuvemShop */
 .user-content img.dsell-custom01-item-img {
   object-fit: cover;
-  height: 200px;
+  height: 200px !important;
   width: 100%;
 }
 
