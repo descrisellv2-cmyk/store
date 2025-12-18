@@ -212,9 +212,10 @@ p {
   gap: 12px;
 }
 
-.dsell-custom01-img-small {
+/* Classe para NuvemShop */
+.user-content img.dsell-custom01-img-small {
   width: 48px;
-  height: 48px;
+  height: 48px !important;
 }
 
 @media (max-width: 1024px) {
@@ -226,6 +227,7 @@ p {
 @media (max-width: 640px) {
   .dsell-custom01-block {
     grid-template-columns: 1fr;
+    gap: 64px;
   }
 }
 
