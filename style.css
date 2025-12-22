@@ -154,9 +154,13 @@ p {
 /* CMP CUSTOM 01 */
 
 .dsell-custom01-block {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  align-content: start;
+  column-count: 3;
+  column-gap: 32px;
+}
+
+.dsell-custom01-block > * {
+  break-inside: avoid;
+  margin-bottom: 32px;
 }
 
 .dsell-custom01-card {
