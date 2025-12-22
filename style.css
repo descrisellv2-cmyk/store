@@ -159,6 +159,8 @@ p {
 }
 
 .dsell-custom01-block > * {
+  display: block;
+  width: 100%;
   break-inside: avoid;
   margin-bottom: 32px;
 }
