@@ -154,10 +154,13 @@ p {
 /* CMP CUSTOM 01 */
 
 .dsell-custom01-block {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr; /* tres colunas iguais */
-  align-items: start;
-  gap: 32px;
+  column-count: 3;
+  column-gap: 32px;
+}
+
+.dsell-custom01-block > * {
+  break-inside: avoid;
+  margin-bottom: 32px;
 }
 
 .dsell-custom01-card {
@@ -212,6 +215,15 @@ p {
   gap: 12px;
 }
 
+.dsell-custom01-info-nome {
+  display: flex;
+  flex-direction: column;
+}
+
+.dsell-custom01-nome {
+  font-size: 12px;
+}
+
 /* Classe para NuvemShop */
 .user-content img.dsell-custom01-img-small {
   width: 48px;
@@ -220,14 +232,15 @@ p {
 
 @media (max-width: 1024px) {
   .dsell-custom01-block {
-    grid-template-columns: repeat(2, 1fr);
+      column-count: 2;
+      column-gap: 32px;
   }
 }
 
 @media (max-width: 640px) {
   .dsell-custom01-block {
-    grid-template-columns: 1fr;
-    gap: 64px;
+      column-count: 1;
+      gap: 64px;
   }
 }
 
