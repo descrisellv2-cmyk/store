@@ -1,4 +1,4 @@
-/* DESKTOP PREVIA BUBBLE */
+/* PREVIA BUBBLE (RESET CLASSES) */
 
 h2 {
   font-family: 'Inter', sans-serif;
@@ -15,6 +15,11 @@ p {
 
 /* DESKTOP */
 
+/* DE 780 PRA CIMA */
+@media (min-width: 780px) {
+
+/* ALINHAMENTO TEXTO */
+
 .dsell-md-text-left {
   text-align: left;
 }
@@ -27,9 +32,7 @@ p {
   text-align: center;
 }
 
-.dsell-md-text-center {
-  text-align: center;
-}
+/* PROPORÇÃO */
 
 .dsell-md-aspect-1 {
   aspect-ratio: 16 / 9;
@@ -38,6 +41,8 @@ p {
 .dsell-md-aspect-2 {
   aspect-ratio: 1 / 1;
 }
+
+/* GRID */
 
 .dsell-md-grid-2 {
   display: grid;
@@ -51,17 +56,25 @@ p {
   align-items: center;
 }
 
+/* ORDENAÇÃO */
+
 .dsell-md-order-1 {
   order: 1;
 }
+
+/* IMAGEM VIEW */
 
 .dsell-md-object-cover {
   object-fit: cover;
 }
 
+/* LARGURA */
+
 .dsell-md-w-full {
   width: 100%;
 }
+
+/* PADDING */
 
 .dsell-md-pl-24 {
   padding-left: 24px;
@@ -75,6 +88,8 @@ p {
   padding-bottom: 24px;
 }
 
+/* POSIÇÃO */
+
 .dsell-md-top-8 {
   top: 8px;
 }
@@ -87,6 +102,17 @@ p {
   gap: 32px;
 }
 
+/* VISUALIZAÇÃO */
+
+.dsell-md-block {
+  display: block;
+}
+
+.dsell-md-hidden {
+  display: none;
+}
+
+}
 
 /* MOBILE PREVIA BUBBLE */
 
@@ -105,6 +131,10 @@ p {
 
 /* MOBILE */
 
+/* ATE 780PX */
+@media (max-width: 780px) {
+
+/* ALINHAMENTO TEXTO */
 .dsell-text-right {
   text-align: right;
 }
@@ -117,6 +147,8 @@ p {
   text-align: center;
 }
 
+/* PROPORÇÃO */
+
 .dsell-aspect-1 {
   aspect-ratio: 16 / 9;
 }
@@ -125,19 +157,27 @@ p {
   aspect-ratio: 1 / 1;
 }
 
+/* GRID */
+
 .dsell-grid-1 {
   display: grid;
   grid-template-columns: 1fr;
   align-items: center;
 }
 
+/* ORDENAÇÃO */
+
 .dsell-order-1 {
   order: 1;
 }
 
+/* LARGURA */
+
 .dsell-w-full {
   width: 100%;
 }
+
+/* PADDING */
 
 .dsell-pt-24 {
   padding-top: 24px;
@@ -149,6 +189,18 @@ p {
 
 .dsell-pb-24 {
   padding-bottom: 24px;
+}
+
+/* VISUALIZAÇÃO */
+
+.dsell-block {
+  display: block;
+}
+
+.dsell-hidden {
+  display: none;
+}
+
 }
 
 /* CMP CUSTOM 01 */
