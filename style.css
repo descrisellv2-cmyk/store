@@ -305,16 +305,13 @@
   margin: 0;
 }
 
-.dsell-cmp01-faq-icon svg {
+.dsell-cmp01-faq-icon img {
   width: 20px;
   height: 20px;
-  stroke: #111;
-  stroke-width: 2;
-  fill: none;
   transition: transform 0.2s ease;
 }
 
 /* quando abre */
-.dsell-cmp01-faq-item[open] .dsell-cmp01-faq-icon svg {
+.dsell-cmp01-faq-item[open] .dsell-cmp01-faq-icon img {
   transform: rotate(45deg);
 }
