@@ -246,6 +246,10 @@
   font-size: 12px;
 }
 
+img.dsell-custom01-img-small {
+  border-radius: 9999px;
+}
+
 /* Classe para NuvemShop */
 .user-content img.dsell-custom01-img-small {
   width: 48px;
