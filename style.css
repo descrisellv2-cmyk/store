@@ -1,18 +1,3 @@
-/* PREVIA BUBBLE (RESET CLASSES) */
-
-h2 {
-  font-family: 'Inter', sans-serif;
-  font-size: 24px;
-  line-height: 120%;
-  font-weight: bold;
-}
-
-p {
-  font-family: 'Inter', sans-serif;
-  font-size: 16px;
-  line-height: 150%;
-}
-
 /* DESKTOP */
 
 /* DE 780 PRA CIMA */
@@ -112,21 +97,6 @@ p {
   display: none;
 }
 
-}
-
-/* MOBILE PREVIA BUBBLE */
-
-h2 {
-  font-family: 'Inter', sans-serif;
-  font-size: 24px;
-  line-height: 120%;
-  font-weight: bold;
-}
-
-p {
-  font-family: 'Inter', sans-serif;
-  font-size: 16px;
-  line-height: 150%;
 }
 
 /* MOBILE */
