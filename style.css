@@ -318,7 +318,7 @@ img.dsell-custom01-img-small {
 }
 
 .dsell-cmp01-faq-icon img {
-  width: 20px;
+  min-width: 20px;
   height: 20px;
   transition: transform 0.2s ease;
 }
