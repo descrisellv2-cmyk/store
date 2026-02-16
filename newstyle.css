@@ -52,18 +52,18 @@ img {
   flex-direction: column;
 }
 
-.dsell-s-01 > div-text {
+.dsell-s-02 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.dsell-s-02 > div-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   padding: 32px;
   gap: 8px;
-}
-
-.dsell-s-02 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
 }
 
 
