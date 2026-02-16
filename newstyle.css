@@ -48,7 +48,7 @@
 
 .dsell-s-02 {
   display: grid;
-  grid-template: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
 }
 
 
