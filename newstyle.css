@@ -41,11 +41,11 @@
 
 /* ESTILOS DE SESSÕES */
 
-.dsell-01 {
+.dsell-s-01 {
   display: flex;
 }
 
-.dsell-02 {
+.dsell-s-02 {
   display: grid;
   grid-template: 1fr 1fr;
 }
