@@ -57,7 +57,7 @@ img {
   grid-template-columns: 1fr 1fr;
 }
 
-.dsell-s-02 > div-text {
+.dsell-s-02 > .div-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
