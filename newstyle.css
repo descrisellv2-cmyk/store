@@ -57,12 +57,6 @@ img {
   grid-template-columns: 1fr 1fr;
 }
 
-@media (min-width: 780px) {
-  .dsell-s-02 {
-    grid-template-columns: 1fr;
-  }
-}
-
 .dsell-s-02 > .div-text {
   display: flex;
   flex-direction: column;
@@ -70,6 +64,19 @@ img {
   align-items: flex-start;
   padding: 32px;
   gap: 8px;
+}
+
+@media (min-width: 760px) {
+  .dsell-s-02 {
+    grid-template-columns: 1fr;
+  }
+  
+  .dsell-s-02 > .div-text {
+  padding: 0px
+  padding-top: 32px;
+  padding-bottom: 32px;
+  gap: 8px;
+  }
 }
 
 
