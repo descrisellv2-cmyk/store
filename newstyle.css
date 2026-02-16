@@ -1,1 +1,55 @@
+/* ALINHAMENTO TEXTO */
+
+.dsell-text-left {
+  text-align: left;
+}
+
+.dsell-text-right {
+  text-align: right;
+}
+
+.dsell-text-center {
+  text-align: center;
+}
+
+/* GAP */
+
+.dsell-gap-none {
+  gap: 0px;
+}
+
+.dsell-gap-small {
+  gap: 8px;
+}
+
+/* PD-S: PADDING SECTION */
+
+.dsell-pd-s-none {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.dsell-pd-s-small {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.dsell-pd-s-medium {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+/* ESTILOS DE SESSÕES */
+
+.dsell-01 {
+  display: flex;
+}
+
+.dsell-02 {
+  display: grid;
+  grid-template: 1fr 1fr;
+}
+
+
+
 
