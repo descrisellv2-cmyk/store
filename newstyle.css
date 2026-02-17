@@ -1,7 +1,12 @@
-/* IMAGEM DEFAULT */
+/* IMAGEM ESTILOS */
 
 img {
   width: 100%;
+}
+
+.dsell-img-1 {
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
 }
 
 /* ALINHAMENTO TEXTO */
